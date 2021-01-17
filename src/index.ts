@@ -28,7 +28,5 @@ document.getElementById("create-playlist").onclick = () => {
   const youtubeLink =
     "https://www.youtube.com/watch_videos?video_ids=" + ids.join(",");
 
-    console.log(youtubeLink)
-
-  // window.open(youtubeLink, "_blank");
+  window.open(youtubeLink, "_blank");
 };
